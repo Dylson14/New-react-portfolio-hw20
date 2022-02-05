@@ -1,13 +1,5 @@
-import React, { Component } from 'react';
+import React from "react";
 
-class Resume extends Component {
-    render() {
-        return(
-            <div>
-                <h1>Resume page</h1>
-            </div>
-        )
-    }
+export default function Resume() {
+    return <h1>Find my Resume here</h1>;
 }
-
-export default Resume;
