@@ -1,6 +1,8 @@
-import './App.css';
 import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
 import Main from './components/main';
+import AboutMe from './components/aboutme';
+import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -30,7 +32,14 @@ function App() {
   </Navbar.Collapse>
   </Container>
       </Navbar>
-      <Main />
+      <h1>These are the components:</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/about">
+            <AboutMe />
+          </Route>
+        </Routes>
+      </BrowserRouter>
 
     </div>
   );

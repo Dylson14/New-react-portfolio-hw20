@@ -8,5 +8,5 @@ import Resume from '../components/resume';
 
 
 export default function Main() {
-    return <h1>This is the main page with the main components</h1>;
+    return <h1>Main page with Main components</h1>;
 }
