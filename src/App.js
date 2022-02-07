@@ -1,50 +1,44 @@
 import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap';
-import Main from './components/main';
-import AboutMe from './components/aboutme';
+import { render } from "react-dom";
+import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import React from 'react';
+import About from './components/aboutme'
+import Landing from './components/landingpage'
 
 function App() {
-  return (
-    <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Container>
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="me-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
-    </Nav>
-    <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Dank memes
-      </Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-  </Container>
-      </Navbar>
 
-      <h1>Testing out the routes here:</h1>
+    return (
+      <div>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Container>
+    <Navbar.Brand href="/home">Dylson's Portfolio</Navbar.Brand>
+    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+    <Navbar.Collapse id="responsive-navbar-nav">
+      <Nav className="me-auto">
+        <Link to="/resume">Resume</Link>
+        <Link to="/about">About Me</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/contact">Contact</Link>
+      </Nav>
+    </Navbar.Collapse>
+    </Container>
+        </Navbar>
+      </div>
+    );
+  
+  render(
+  // Unsure why this approach works and the other approach does not. 
+    <Router>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>,
 
-      {/* When I comment out the BrowserRouter then my elements appear once morea */}
-
-      <BrowserRouter>
-        <Routes>
-          <Route path="/about" element={<AboutMe />} />
-        </Routes>
-      </BrowserRouter>
-
-    </div>
+    document.getElementById("root")
   );
 }
 
 export default App;
+
