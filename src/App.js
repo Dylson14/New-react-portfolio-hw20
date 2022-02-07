@@ -32,12 +32,14 @@ function App() {
   </Navbar.Collapse>
   </Container>
       </Navbar>
-      <h1>These are the components:</h1>
+
+      <h1>Testing out the routes here:</h1>
+
+      {/* When I comment out the BrowserRouter then my elements appear once morea */}
+
       <BrowserRouter>
         <Routes>
-          <Route path="/about">
-            <AboutMe />
-          </Route>
+          <Route path="/about" element={<AboutMe />} />
         </Routes>
       </BrowserRouter>
 
