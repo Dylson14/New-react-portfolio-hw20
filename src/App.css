@@ -5,15 +5,23 @@
 }
 
 .header-color{
-    background: #7F7FD5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #36D1DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.nav-padding{
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .avatar-img{
-    height: 250px;
+    height: 450px;
     padding-top: 5em;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .banner-text {
@@ -37,5 +45,22 @@ background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+
     border-top: 5px dotted white;
     width: 50%;
     margin: auto;
+    padding-bottom: 1rem;
+}
+.banner-text p {
+    font-size: 19px;
+    margin: auto;
+    padding-bottom: 1rem;
+    align-items: center;
 }
 
+.icon{
+    padding: 1rem;
+    font-size: 45px;
+    transition: 0.3s;
+}
+
+.icon:hover{
+        color: #3CF1C9;
+        transition: 0.3s ease-in-out
+}
