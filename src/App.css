@@ -64,3 +64,7 @@ background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, F
         color: #3CF1C9;
         transition: 0.3s ease-in-out
 }
+
+.bottom-padding{
+    padding-bottom: 1rem;
+}

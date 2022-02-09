@@ -20,7 +20,7 @@ export default function Landing() {
                 </Row>
             </Container>
 
-            <Container fluid className="landing-grid">
+            <Container fluid className="landing-grid bottom-padding">
             <div className="banner-text">
                 <h1> Full-Stack Web Developer </h1>
                 <hr />
@@ -39,12 +39,8 @@ export default function Landing() {
                 </div>
 
             </div>
-             <hr />
-            <ul></ul>
-            <hr />
-            <ul></ul>
-            </Container>
 
+            </Container>
 
         </div>
     );
