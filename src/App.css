@@ -24,6 +24,12 @@ background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, F
     padding-bottom: 2rem;
 }
 
+.project-img{
+    height: 160px;
+    width: auto;
+    text-align: center;
+}
+
 .banner-text {
     background-color: black;
     color: white;
@@ -66,5 +72,11 @@ background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, F
 }
 
 .bottom-padding{
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
 }
+
+.top-padding{
+    padding-top: 3rem;
+}
+
+
