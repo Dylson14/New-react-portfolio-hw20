@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/New-react-portfolio-hw20/static/css/main.767dae86.css",
+    "main.js": "/New-react-portfolio-hw20/static/js/main.9b04ab99.js",
+    "static/js/787.022871f4.chunk.js": "/New-react-portfolio-hw20/static/js/787.022871f4.chunk.js",
+    "static/media/standDyl.jpg": "/New-react-portfolio-hw20/static/media/standDyl.9167f0c9e0c0eb54eb82.jpg",
+    "static/media/dylson.jpg": "/New-react-portfolio-hw20/static/media/dylson.93417c33f27361c1cdd7.jpg",
+    "static/media/2DoCamp.png": "/New-react-portfolio-hw20/static/media/2DoCamp.2ab38b5fbd1d4d884ceb.png",
+    "static/media/scheduler.png": "/New-react-portfolio-hw20/static/media/scheduler.18813cbbee355f40d44c.png",
+    "static/media/infoCraft.png": "/New-react-portfolio-hw20/static/media/infoCraft.841d01b760af834d8674.png",
+    "static/media/passGen.png": "/New-react-portfolio-hw20/static/media/passGen.9178cf4f7b5e129306b0.png",
+    "static/media/employee.jpeg": "/New-react-portfolio-hw20/static/media/employee.b5306e9096c414daedb3.jpeg",
+    "static/media/weathDash.jpg": "/New-react-portfolio-hw20/static/media/weathDash.8789bd7d73a2c7b835a5.jpg",
+    "index.html": "/New-react-portfolio-hw20/index.html",
+    "main.767dae86.css.map": "/New-react-portfolio-hw20/static/css/main.767dae86.css.map",
+    "main.9b04ab99.js.map": "/New-react-portfolio-hw20/static/js/main.9b04ab99.js.map",
+    "787.022871f4.chunk.js.map": "/New-react-portfolio-hw20/static/js/787.022871f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.767dae86.css",
+    "static/js/main.9b04ab99.js"
+  ]
+}
