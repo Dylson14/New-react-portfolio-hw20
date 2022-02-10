@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import {Container, Row, Col} from 'react-bootstrap';
-import avatar from '../assets/dylson.jpg';
+import avatar from '../../assets/dylson.jpg';
 
 export default function Landing() {
     return (
